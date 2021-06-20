@@ -1,0 +1,30 @@
+// todo: disabled button styles
+button {
+  &:disabled {
+    cursor: default;
+  }
+  &.disabled {
+    cursor: default;
+  }
+}
+
+// todo: brand button icon margin
+.btn-brand:not(:only-child) {
+  .c-icon {
+    margin-top: 0 !important;
+  }
+}
+
+.c-main {
+  padding-top: 0;
+  background-color: white;
+}
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.active {
+  color: white;
+}
