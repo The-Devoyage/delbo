@@ -31,16 +31,22 @@ const TrueOrFalse = () => {
         backgroundPosition="0 35%"
         backgroundOpacity="1"
       />
-      <CContainer style={{ margin: "5rem auto" }}>
-        <StyledTitle text="True or False - Learn about Our Quail Products" />
+      <CContainer
+        style={{
+          margin: "5rem auto",
+          display: "flex",
+          justifyContent: "center",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        <StyledTitle
+          text="True or False - Learn about Our Quail Products"
+          centered
+        />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          There are many myths about the value of quail meat and eggs. Test your
+          understanding below!
         </p>
       </CContainer>
       <CContainer>

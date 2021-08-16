@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import OurFarm from "./pages/OurFarm/OurFarm";
 import QuailMeat from "./pages/QuailMeat/QuailMeat";
 import QuailProduct from "./pages/QuailProduct/QuailProduct";
+import { RecipesPage } from "./pages/Recipes/Recipes";
 import TrueOrFalse from "./pages/TrueOrFalse/TrueOrFalse";
 
 const routes = [
@@ -38,6 +39,12 @@ const routes = [
     exact: true,
     name: "Gourmet Bakery",
     component: Bakery,
+  },
+  {
+    path: "/recipes",
+    exact: true,
+    name: "Recipes",
+    component: RecipesPage,
   },
 ];
 

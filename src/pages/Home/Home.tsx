@@ -30,10 +30,10 @@ const Home = () => {
         </DividerImgTextCenter>
       </DividerImg>
       <OurMission />
-      <CContainer className="d-flex" style={{ flexWrap: "wrap" }}>
+      <div className="d-flex" style={{ flexWrap: "wrap" }}>
         <Contact />
-        <ContactForm />
-      </CContainer>
+        {/* <ContactForm /> */}
+      </div>
       <Map />
     </>
   );

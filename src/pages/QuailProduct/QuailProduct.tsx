@@ -51,26 +51,26 @@ const QuailProduct = () => {
         <CRow className="w-100">
           <h2>Pickeled Eggs and Platters</h2>
           <CDataTable items={pickeledEggs} fields={prodcutFieldsPickeledEggs} />
-          <CContainer className="d-flex flex-row my-4 flex-wrap">
-            <CContainer className="d-flex flex-column align-items-center">
+          <CCol lg="12" className="d-flex flex-wrap justify-content-center">
+            <div className="d-flex flex-column align-items-center mx-2">
               <CImg
                 src="/SpicedBeetEggs.jpg"
                 className="align-self-center my-2"
               />
               <span>Spiced Beet</span>
-            </CContainer>
-            <CContainer className="d-flex flex-column align-items-center">
+            </div>
+            <div className="d-flex flex-column align-items-center mx-2">
               <CImg src="/RedWineBeet.jpg" className="align-self-center my-2" />
               <span>Red Wine Beet</span>
-            </CContainer>
-            <CContainer className="d-flex flex-column align-items-center">
+            </div>
+            <div className="d-flex flex-column align-items-center mx-2">
               <CImg
                 src="/BlendedMustardEggs.jpg"
                 className="align-self-center my-2"
               />
               <span>Blended Mustard</span>
-            </CContainer>
-          </CContainer>
+            </div>
+          </CCol>
         </CRow>
       </CContainer>
       <StyledFadedPrimaryBackgorund className="p-4">

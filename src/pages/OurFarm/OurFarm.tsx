@@ -82,7 +82,7 @@ const OurFarm: React.FC<OurFarmProps> = () => {
           <CCol md="6">
             <StyledCCard>
               <CCardHeader>
-                <h3>Humainly Raised</h3>
+                <h3>Humanely Raised</h3>
               </CCardHeader>
               <CCardBody>
                 <p>
@@ -96,26 +96,13 @@ const OurFarm: React.FC<OurFarmProps> = () => {
             </StyledCCard>
           </CCol>
         </CRow>
-        <CRow style={{ margin: "2rem auto" }}>
-          <CCol md="6">
-            <StyledCCard>
-              <CCardHeader>
-                <h3>Our Pens</h3>
-              </CCardHeader>
-              <CCardBody>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
-              </CCardBody>
-            </StyledCCard>
-          </CCol>
+        <CRow
+          style={{
+            margin: "2rem auto",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
           <CCol md="6">
             <CImg src="/TwoHouses.png" width="100%" className="p-3" />
           </CCol>

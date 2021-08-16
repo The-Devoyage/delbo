@@ -19,21 +19,14 @@ export const eggProducts: Product[] = [
     title: "6-10 Dozen",
     description: "Seasonal, from June through October.",
     src: "/EggCarton.jpg",
-    price: "$5.50/Doz.",
+    price: "$5.00/Doz.",
   },
   {
     id: 3,
     title: "12-20 Dozen*",
     description: "Seasonal, from June through October.",
     src: "/EggCarton.jpg",
-    price: "$5.00/Doz.",
-  },
-  {
-    id: 4,
-    title: "22 Doz or More*",
-    description: "Seasonal, from June through October.",
-    src: "/EggCarton.jpg",
-    price: "$6.00/Doz.",
+    price: "$4.00/Doz.",
   },
 ];
 
@@ -48,14 +41,16 @@ export const pickeledEggs: Product[] = [
   {
     id: 8,
     title: "24 Eggs Platter",
-    description: "DESCCRIPTION NEEDED",
+    description:
+      "24 pickled eggs, sliced in half, presented on a tray, decorated with greens and condiments, upscale presentation.",
     src: "/BlendedMustardEggs.jpg",
     price: "$35.00",
   },
   {
     id: 9,
     title: "48 Eggs Platter",
-    description: "DESCCRIPTION NEEDED",
+    description:
+      "48 pickled eggs, sliced in half, presented on a tray, decorated with greens and condiments, upscale presentation.",
     src: "/BlendedMustardEggs.jpg",
     price: "$70.00",
   },
@@ -74,20 +69,13 @@ export const quailProducts: Product[] = [
     title: "10-19 Pounds",
     description: "10-19 Pounds",
     src: "/RawQuail2.jpg",
-    price: "$15.50/lb",
-  },
-  {
-    id: 3,
-    title: "20-49 Pounds",
-    description: "20-49 Pounds",
-    src: "/RawQuail2.jpg",
     price: "$15.00/lb",
   },
   {
-    id: 4,
-    title: "50+ Pounds",
-    description: "50+ Pounds",
+    id: 3,
+    title: "20+ Pounds",
+    description: "20-49 Pounds",
     src: "/RawQuail2.jpg",
-    price: "$14.50/lb",
+    price: "$14.00/lb",
   },
 ];

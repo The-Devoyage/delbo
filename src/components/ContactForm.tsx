@@ -1,11 +1,24 @@
 import { CButton, CContainer, CInput, CRow, CTextarea } from "@coreui/react";
 import { Field, Formik } from "formik";
+import emailjs from "emailjs-com";
 
 export interface ContactFormProps {}
 
 const ContactForm: React.FC<ContactFormProps> = () => {
+  const handleSubmit = async () => {
+    const send = await emailjs.send(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID!,
+      "template_3680j4e",
+      {},
+      process.env.REACT_APP_EMAILJS_USER_ID
+    );
+  };
+
   return (
-    <CContainer className="d-flex flex-column" style={{ margin: "5rem auto" }}>
+    <CContainer
+      className="d-flex flex-column"
+      style={{ margin: "2rem auto 2rem auto" }}
+    >
       <Formik
         initialValues={{
           first_name: "",

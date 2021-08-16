@@ -1,6 +1,11 @@
+/* eslint-disable import/no-webpack-loader-syntax */
 import { CImg } from "@coreui/react";
 import React, { useState } from "react";
 import ReactMapGL, { Marker } from "react-map-gl";
+import mapboxgl from "mapbox-gl";
+// @ts-ignore
+mapboxgl.workerClass =
+  require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 
 export interface MapProps {}
 

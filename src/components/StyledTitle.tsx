@@ -4,11 +4,12 @@ import styled from "styled-components";
 
 export interface StyledTitleProps {
   text: string;
+  centered?: boolean;
 }
 
-const StyledTitle: React.FC<StyledTitleProps> = ({ text }) => {
+const StyledTitle: React.FC<StyledTitleProps> = ({ text, centered }) => {
   return (
-    <StyledCContainer>
+    <StyledCContainer style={{ textAlign: centered ? "center" : "left" }}>
       <h1>{text}</h1>
     </StyledCContainer>
   );
