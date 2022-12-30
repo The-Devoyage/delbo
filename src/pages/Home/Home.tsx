@@ -6,9 +6,7 @@ import MainAbout from "./details/MainAbout";
 import TryOurProducts from "./details/TryOurProducts";
 import OurMission from "./details/OurMission";
 import Contact from "../../components/Contact";
-import ContactForm from "../../components/ContactForm";
 import Map from "../../components/Map";
-import { CCol, CContainer, CRow } from "@coreui/react";
 
 const Home = () => {
   return (

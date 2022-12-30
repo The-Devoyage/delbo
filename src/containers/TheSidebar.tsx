@@ -22,7 +22,7 @@ const TheSidebar = () => {
         <CSidebarNavItem to="quail-meat" name="Quail Meat" />
         <CSidebarNavItem to="events" name="Event" />
         <CSidebarNavItem to="quail-product" name="Quail Products" />
-        <CSidebarNavItem to="gourmet-bakery" name="Gourmet Bakery" />
+        <CSidebarNavItem to="menu" name="Menu" />
       </CSidebarNav>
     </CSidebar>
   );

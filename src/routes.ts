@@ -1,4 +1,4 @@
-import Bakery from "./pages/Bakery/Bakery";
+import Menu from "./pages/Menu/Menu";
 import Events from "./pages/Events/Events";
 import Home from "./pages/Home/Home";
 import OurFarm from "./pages/OurFarm/OurFarm";
@@ -35,10 +35,10 @@ const routes = [
     component: QuailProduct,
   },
   {
-    path: "/gourmet-bakery",
+    path: "/menu",
     exact: true,
-    name: "Gourmet Bakery",
-    component: Bakery,
+    name: "Menu",
+    component: Menu,
   },
   {
     path: "/recipes",
