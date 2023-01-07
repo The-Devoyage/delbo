@@ -1,4 +1,4 @@
-FROM node:latest as npm-build
+FROM node:16.17.1 as npm-build
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json package-lock.json ./
