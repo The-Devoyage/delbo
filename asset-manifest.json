@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/starter-project/static/css/main.3dfc4dd9.chunk.css",
+    "main.js": "/starter-project/static/js/main.142ab8f7.chunk.js",
+    "main.js.map": "/starter-project/static/js/main.142ab8f7.chunk.js.map",
+    "runtime-main.js": "/starter-project/static/js/runtime-main.df3225dc.js",
+    "runtime-main.js.map": "/starter-project/static/js/runtime-main.df3225dc.js.map",
+    "static/css/2.848bdc9f.chunk.css": "/starter-project/static/css/2.848bdc9f.chunk.css",
+    "static/js/2.019d4b66.chunk.js": "/starter-project/static/js/2.019d4b66.chunk.js",
+    "static/js/2.019d4b66.chunk.js.map": "/starter-project/static/js/2.019d4b66.chunk.js.map",
+    "static/js/3.8edba178.chunk.js": "/starter-project/static/js/3.8edba178.chunk.js",
+    "static/js/3.8edba178.chunk.js.map": "/starter-project/static/js/3.8edba178.chunk.js.map",
+    "index.html": "/starter-project/index.html",
+    "static/css/2.848bdc9f.chunk.css.map": "/starter-project/static/css/2.848bdc9f.chunk.css.map",
+    "static/css/main.3dfc4dd9.chunk.css.map": "/starter-project/static/css/main.3dfc4dd9.chunk.css.map",
+    "static/js/2.019d4b66.chunk.js.LICENSE.txt": "/starter-project/static/js/2.019d4b66.chunk.js.LICENSE.txt",
+    "static/js/mapbox-gl-csp-worker.db41a932.worker.js": "/starter-project/static/js/mapbox-gl-csp-worker.db41a932.worker.js",
+    "static/js/mapbox-gl-csp-worker.db41a932.worker.js.map": "/starter-project/static/js/mapbox-gl-csp-worker.db41a932.worker.js.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df3225dc.js",
+    "static/css/2.848bdc9f.chunk.css",
+    "static/js/2.019d4b66.chunk.js",
+    "static/css/main.3dfc4dd9.chunk.css",
+    "static/js/main.142ab8f7.chunk.js"
+  ]
+}
