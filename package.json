@@ -2,7 +2,7 @@
   "name": "delbo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tomerpacific.github.io/starter-project/",
+  "homepage": "https://the-devoyage.github.io/delbo/",
   "dependencies": {
     "@coreui/coreui": "^3.4.0",
     "@coreui/react": "^3.4.6",
