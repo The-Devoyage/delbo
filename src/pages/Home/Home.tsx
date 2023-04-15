@@ -30,7 +30,6 @@ const Home = () => {
       <OurMission />
       <div className="d-flex" style={{ flexWrap: "wrap" }}>
         <Contact />
-        {/* <ContactForm /> */}
       </div>
       <Map />
     </>

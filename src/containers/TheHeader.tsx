@@ -28,7 +28,10 @@ const TheHeader = () => {
         className="d-flex p-3 justify-content-around align-items-center"
         style={{ backgroundColor: "white" }}
       >
-        <CImg src="logo.png" className="col-md-12 col-lg-5" />
+        <CImg
+          src={`${process.env.PUBLIC_URL}/logo.png`}
+          className="col-md-12 col-lg-5"
+        />
       </div>
       <CHeader
         withSubheader

@@ -62,7 +62,7 @@ const Bakery = () => {
                     <CCol md={4} className="my-2">
                       <CCard className="h-100">
                         <CCardImg
-                          src={item.image}
+                          src={`${process.env.PUBLIC_URL}/${item.image}`}
                           style={{
                             height: "40%",
                             objectFit: "cover",

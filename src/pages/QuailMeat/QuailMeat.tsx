@@ -22,7 +22,11 @@ const QuailMeat = () => {
       <StyledFadedPrimaryBackgorund className="my-3 p-4">
         <CRow className="p-3">
           <CCol className="d-flex justify-content-center my-2">
-            <CImg src="/RawQuail.jpg" fluid style={{ alignSelf: "center" }} />
+            <CImg
+              src={`${process.env.PUBLIC_URL}/RawQuail.jpg`}
+              fluid
+              style={{ alignSelf: "center" }}
+            />
           </CCol>
           <CCol md="6">
             <h3>ENJOY THE RICH FLAVOR OF QUAIL MEAT</h3>

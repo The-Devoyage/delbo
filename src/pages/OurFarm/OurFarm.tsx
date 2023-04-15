@@ -37,7 +37,11 @@ const OurFarm: React.FC<OurFarmProps> = () => {
       <CContainer>
         <CRow style={{ margin: "2rem auto" }}>
           <CCol md="6">
-            <CImg src="/FarmView.png" width="100%" className="p-3" />
+            <CImg
+              src={`${process.env.PUBLIC_URL}/FarmView.png`}
+              width="100%"
+              className="p-3"
+            />
           </CCol>
           <CCol md="6">
             <StyledCCard>
@@ -72,12 +76,20 @@ const OurFarm: React.FC<OurFarmProps> = () => {
             </StyledCCard>
           </CCol>
           <CCol md="6">
-            <CImg src="/DogWithFarm.png" width="100%" className="p-3" />
+            <CImg
+              src={`${process.env.PUBLIC_URL}/DogWithFarm.png`}
+              width="100%"
+              className="p-3"
+            />
           </CCol>
         </CRow>
         <CRow style={{ margin: "2rem auto" }}>
           <CCol md="6">
-            <CImg src="/HoldingBirds.png" width="100%" className="p-3" />
+            <CImg
+              src={`${process.env.PUBLIC_URL}/HoldingBirds.png`}
+              width="100%"
+              className="p-3"
+            />
           </CCol>
           <CCol md="6">
             <StyledCCard>
@@ -104,7 +116,11 @@ const OurFarm: React.FC<OurFarmProps> = () => {
           }}
         >
           <CCol md="6">
-            <CImg src="/TwoHouses.png" width="100%" className="p-3" />
+            <CImg
+              src={`${process.env.PUBLIC_URL}/TwoHouses.png`}
+              width="100%"
+              className="p-3"
+            />
           </CCol>
         </CRow>
       </CContainer>

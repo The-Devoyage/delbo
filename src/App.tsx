@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import "./scss/styles.scss";
 
@@ -7,13 +7,13 @@ import TheLayout from "./containers/TheLayout";
 const App = () => {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <Switch>
           <Route path="/">
             <TheLayout />
           </Route>
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 };

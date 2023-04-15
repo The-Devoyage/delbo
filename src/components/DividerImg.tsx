@@ -18,7 +18,7 @@ const DividerImg: React.FC<DividerImgProps> = ({
       {children}
       <DividerImgBackground
         style={{
-          backgroundImage: `url(${backgroundImage})`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}/${backgroundImage})`,
           backgroundPosition,
           opacity: backgroundOpacity ? backgroundOpacity : 0.5,
         }}

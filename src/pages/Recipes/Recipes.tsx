@@ -6,7 +6,7 @@ export const RecipesPage = () => {
     <>
       <StyledTitle text="Gourmet Bakery" />
       <CContainer>
-        <CImg src="recipes.jpg" width="100%" />
+        <CImg src={`${process.env.PUBLIC_URL}/recipes.jpg`} width="100%" />
       </CContainer>
     </>
   );

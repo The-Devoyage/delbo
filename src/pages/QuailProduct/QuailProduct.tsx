@@ -39,7 +39,10 @@ const QuailProduct = () => {
               md="4"
               className="d-flex justify-content-center align-items-cennter"
             >
-              <CImg src="/EggCarton.jpg" className="align-self-center" />
+              <CImg
+                src={`${process.env.PUBLIC_URL}/EggCarton.jpg`}
+                className="align-self-center"
+              />
             </CCol>
           </CRow>
         </CContainer>
@@ -54,18 +57,21 @@ const QuailProduct = () => {
           <CCol lg="12" className="d-flex flex-wrap justify-content-center">
             <div className="d-flex flex-column align-items-center mx-2">
               <CImg
-                src="/SpicedBeetEggs.jpg"
+                src={`${process.env.PUBLIC_URL}/SpicedBeetEggs.jpg`}
                 className="align-self-center my-2"
               />
               <span>Spiced Beet</span>
             </div>
             <div className="d-flex flex-column align-items-center mx-2">
-              <CImg src="/RedWineBeet.jpg" className="align-self-center my-2" />
+              <CImg
+                src={`${process.env.PUBLIC_URL}/RedWineBeet.jpg`}
+                className="align-self-center my-2"
+              />
               <span>Red Wine Beet</span>
             </div>
             <div className="d-flex flex-column align-items-center mx-2">
               <CImg
-                src="/BlendedMustardEggs.jpg"
+                src={`${process.env.PUBLIC_URL}/BlendedMustardEggs.jpg`}
                 className="align-self-center my-2"
               />
               <span>Blended Mustard</span>
@@ -84,7 +90,10 @@ const QuailProduct = () => {
               md="4"
               className="d-flex justify-content-center align-items-cennter"
             >
-              <CImg src="/RawQuail2.jpg" className="align-self-center" />
+              <CImg
+                src={`${process.env.PUBLIC_URL}/RawQuail2.jpg`}
+                className="align-self-center"
+              />
             </CCol>
           </CRow>
         </CContainer>

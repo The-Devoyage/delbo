@@ -4,7 +4,6 @@ import {
   CCardBody,
   CCardFooter,
   CCardHeader,
-  CImg,
   CCardTitle,
   CCardImg,
   CCardText,

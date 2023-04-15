@@ -22,15 +22,24 @@ const MainAbout: React.FC<MainAboutProps> = () => {
           style={{ margin: "5rem auto" }}
         >
           <CContainer className="d-flex flex-column justify-content-center align-items-center col-sm-12 col-md-4">
-            <CImg src="Quail-Egg.png" style={{ maxWidth: "200px" }} />
+            <CImg
+              src={`${process.env.PUBLIC_URL}/Quail-Egg.png`}
+              style={{ maxWidth: "200px" }}
+            />
             <CLabel>Fresh Coturnix Quail Eggs</CLabel>
           </CContainer>
           <CContainer className="d-flex flex-column justify-content-center align-items-center col-sm-12 col-md-4">
-            <CImg src="Eggs.png" style={{ maxWidth: "200px" }} />
+            <CImg
+              src={`${process.env.PUBLIC_URL}/Eggs.png`}
+              style={{ maxWidth: "200px" }}
+            />
             <CLabel>Pickled Coturnix Quail Eggs</CLabel>
           </CContainer>
           <CContainer className="d-flex flex-column justify-content-center align-items-center col-sm-12 col-md-4">
-            <CImg src="Quail.png" style={{ maxWidth: "200px" }} />
+            <CImg
+              src={`${process.env.PUBLIC_URL}/Quail.png`}
+              style={{ maxWidth: "200px" }}
+            />
             <CLabel>Frozen Coturnix Quail Meat</CLabel>
           </CContainer>
         </CContainer>
