@@ -18,7 +18,7 @@ const OurFarm: React.FC<OurFarmProps> = () => {
   return (
     <div>
       <DividerImg
-        backgroundImage="/eggs-image.png"
+        backgroundImage="eggs-image.png"
         backgroundPosition="0 35%"
         backgroundOpacity="1"
       />

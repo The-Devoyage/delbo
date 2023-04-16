@@ -14,7 +14,7 @@ const QuailProduct = () => {
   ];
   return (
     <>
-      <DividerImg backgroundImage="/Chicks.jpg" backgroundOpacity="1" />
+      <DividerImg backgroundImage="Chicks.jpg" backgroundOpacity="1" />
       <CContainer style={{ margin: "5rem auto" }}>
         <StyledTitle text="COTURNIX QUAIL PRODUCTS IN DANVILLE, PA" />
         <p>

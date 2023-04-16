@@ -6,7 +6,7 @@ import StyledTitle from "../../components/StyledTitle";
 const Events = () => {
   return (
     <>
-      <DividerImg backgroundOpacity="1" backgroundImage="/Events.jpg" />
+      <DividerImg backgroundOpacity="1" backgroundImage="Events.jpg" />
       <CContainer style={{ margin: "5rem auto" }}>
         <StyledTitle text="Events" />
 

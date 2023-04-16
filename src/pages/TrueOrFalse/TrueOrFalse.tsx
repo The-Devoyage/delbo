@@ -10,7 +10,6 @@ import {
   CCardTitle,
   CRow,
   CCol,
-  CImg,
 } from "@coreui/react";
 import DividerImg from "../../components/DividerImg";
 import StyledTitle from "../../components/StyledTitle";
@@ -27,7 +26,7 @@ const TrueOrFalse = () => {
   return (
     <>
       <DividerImg
-        backgroundImage="/eggs-image.png"
+        backgroundImage="eggs-image.png"
         backgroundPosition="0 35%"
         backgroundOpacity="1"
       />

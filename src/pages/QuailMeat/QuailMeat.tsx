@@ -7,7 +7,7 @@ import { StyledFadedPrimaryBackgorund } from "../Home/details/OurMission";
 const QuailMeat = () => {
   return (
     <>
-      <DividerImg backgroundImage="/CookedQuail.png" backgroundOpacity="1" />
+      <DividerImg backgroundImage="CookedQuail.png" backgroundOpacity="1" />
       <CContainer style={{ margin: "5rem auto" }}>
         <StyledTitle text="FROZEN COTURNIX QUAIL MEAT IN DANVILLE, PA" />
         <p>
