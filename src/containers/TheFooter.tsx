@@ -42,7 +42,7 @@ const TheFooter = () => {
       </CNav>
       <CContainer className="text-light d-flex flex-column justify-content-center align-items-center">
         <span>53 Moser Rd. Danville PA, 17821</span>
-        <span>(570) 284-2512</span>
+        <span>(570) 275-1999</span>
       </CContainer>
     </CFooter>
   );
